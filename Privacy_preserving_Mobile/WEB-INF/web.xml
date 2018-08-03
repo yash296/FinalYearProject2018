@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<display-name>Document Classification</display-name>
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.user.action.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserList</servlet-name>
+		<servlet-class>com.admin.action.UserList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserList</servlet-name>
+		<url-pattern>/UserList</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.user.action.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>NewUser</servlet-name>
+		<servlet-class>com.user.action.NewUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUser</servlet-name>
+		<url-pattern>/NewUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.user.action.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.user.action.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadFile</servlet-name>
+		<servlet-class>com.user.action.UploadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadFile</servlet-name>
+		<url-pattern>/UploadFile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DisplayTag_Content</servlet-name>
+		<servlet-class>com.user.action.DisplayTag_Content</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplayTag_Content</servlet-name>
+		<url-pattern>/DisplayTag_Content</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignOut</servlet-name>
+		<servlet-class>com.user.action.SignOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignOut</servlet-name>
+		<url-pattern>/SignOut</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.user.action.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FuzzyCluster</servlet-name>
+		<servlet-class>com.user.action.FuzzyCluster</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FuzzyCluster</servlet-name>
+		<url-pattern>/FuzzyCluster</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ClassifierModel</servlet-name>
+		<servlet-class>com.user.action.ClassifierModel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClassifierModel</servlet-name>
+		<url-pattern>/ClassifierModel</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.admin.action.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminChangePass</servlet-name>
+		<servlet-class>com.admin.action.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminChangePass</servlet-name>
+		<url-pattern>/AdminChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Pass</servlet-name>
+		<servlet-class>com.supportclass.Pass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pass</servlet-name>
+		<url-pattern>/Pass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadFiles</servlet-name>
+		<servlet-class>com.supportclass.DownloadFiles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFiles</servlet-name>
+		<url-pattern>/DownloadFiles</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
